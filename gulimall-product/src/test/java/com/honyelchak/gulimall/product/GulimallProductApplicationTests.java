@@ -24,17 +24,17 @@ public class GulimallProductApplicationTests {
     @Test
     public void uploadOss() throws FileNotFoundException {
 //        // Endpoint以杭州为例，其它Region请按实际情况填写。
-//        String endpoint = "oss-cn-shanghai.aliyuncs.com";
+//        String endpoint = "";
 //// 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录RAM控制台创建RAM账号。
-//        String accessKeyId = "LTAI4GHW4yaAHykhtMDemsrS";
-//        String accessKeySecret = "wU2U5X2Flm11DMA5hjojdKRN0Zzi8c";
+//        String accessKeyId = "";
+//        String accessKeySecret = "";
 
 // 创建OSSClient实例。
         //OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
 
 //        InputStream fileInputStream = new FileInputStream("C:\\Users\\Hades\\Pictures\\Screenshots\\屏幕截图(1).png");
 //
-//        ossClient.putObject("gulimall-hon", "xxx.png",fileInputStream);
+//        ossClient.putObject("", "xxx.png",fileInputStream);
 //
 //// 关闭OSSClient。
 //        ossClient.shutdown();
